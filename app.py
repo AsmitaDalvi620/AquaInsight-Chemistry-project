@@ -142,3 +142,4 @@ with tab4:
             if img_cm:
                 with st.expander("📈 View Model Confusion Matrix (66.9% Accuracy)"):
                     st.image(img_cm, use_container_width=True)
+
