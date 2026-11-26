@@ -8,6 +8,17 @@ st.set_page_config(page_title="AquaInsight | AI Water Intelligence", page_icon="
 
 st.markdown("""
 <style>
+[data-testid="stStatusWidget"],
+    .viewerBadge_container__r5tak,
+    .styles_viewerBadge__CvC9N,
+    div[class^="viewerBadge_"],
+    a[href*="streamlit.io/cloud"] {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header[data-testid="stHeader"] {background: transparent;}
 .hero-banner {background: linear-gradient(120deg, #005f73, #0a9396, #94d2bd); padding: 22px 28px; border-radius: 16px; color: white; margin-bottom: 16px;}
 .chem-card {background: #f8fbfc; border-top: 4px solid #0a9396; border-radius: 12px; padding: 14px; margin-bottom: 12px; box-shadow: 0 3px 10px rgba(0,0,0,0.06); height: 225px;}
 .chem-title {font-size: 17px; font-weight: 700; color: #005f73; margin-bottom: 4px;}
